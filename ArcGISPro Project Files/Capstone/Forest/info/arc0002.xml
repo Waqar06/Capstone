@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20181022</CreaDate><CreaTime>16232100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField" Date="20181022" Time="162321">JoinField aus_for18x1 AUS_FOR18 aus_for18 VALUE STATE;FOR_SOURCE;FOR_CODE;FOR_TYPE;FOR_CAT;COVER;HEIGHT;FOREST</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181022" Time="162354">CalculateField aus_for18x1 FOR_CODE 44 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181022" Time="162413">CalculateField aus_for18x1 COVER 2 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181022" Time="162422">CalculateField aus_for18x1 FOR_TYPE "Eucalypt Medium Open" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181116" Time="154301">CalculateField aus_for18 FOR_SOURCE "BLANK" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181116" Time="154436">CalculateField aus_for18 FOR_SOURCE "QLD-SLATS" VB #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224031">CalculateField aus_for18 IsForest calc(!FOR_CODE!) PYTHON3 "def calc(forestcode):
+    if forestcode == 0:
+        return 0
+    else:
+        return 1" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224125">CalculateField aus_for18 IsForest calc(!FOR_CODE!) PYTHON3 "def calc(forestcode):
+    if forestcode == 0:
+        return 0
+    else:
+        return 1" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224135">CalculateField aus_for18 IsForest calc(!FOR_CODE!) PYTHON3 "def calc(forestcode):
+    if forestcode == 0:
+        return 1
+    else:
+        return 1" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224244">CalculateField aus_for18 IsForest calc(!FOR_CODE!) PYTHON3 "def calc(forestcode):
+    if forestcode == 0:
+        return 1
+    else:
+        return 2" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224310">CalculateField aus_for18 IsForest calc(!FOR_CODE!) PYTHON3 "def calc(forestcode):
+    if forestcode == 0:
+        return 2
+    else:
+        return 1" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224437">CalculateField aus_for18 IsForest reclass(!FOR_CODE!) PYTHON3 "def reclass(OBJECTID_2):
+    if (OBJECTID_2 == 0):
+        return "N"
+    else:
+        return "Y"" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224445">CalculateField aus_for18 IsForest reclass(!FOR_CODE!) PYTHON3 "def reclass(OBJECTID_2):
+    if (OBJECTID_2 == 0):
+        return "N"
+    else:
+        return "Y"" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224503">CalculateField aus_for18 IsForest reclass(!FOR_CODE!) PYTHON3 "def reclass(OBJECTID_2):
+    if (OBJECTID_2 == 0):
+        return 0
+    else:
+        return 1" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20210809" Time="224618">CalculateField aus_for18 IsForest reclass(!FOR_CODE!) PYTHON3 "def reclass(OBJECTID_2):
+    if (OBJECTID_2 == 0):
+        return 0
+    else:
+        return 1" "Short (small integer)"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20210809" Time="224944">DeleteField aus_for18 ISFOREST</Process></lineage></DataProperties></Esri></metadata>
