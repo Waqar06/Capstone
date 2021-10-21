@@ -1,0 +1,64 @@
+{
+  "version" : 1,
+  "name" : "Raster Functions History",
+  "historyItems" : [
+    {
+      "id" : "{C0787F9E-BD63-45C9-B275-9BC75B84F901}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Clip",
+      "description" : "Sets the extent of a raster using coordinates or another dataset.",
+      "rftPath" : "Clip_{C0787F9E-BD63-45C9-B275-9BC75B84F901}.rft.xml",
+      "startTime" : "637641139340000000",
+      "endTime" : "637641139360000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "{BB91A3A9-7D08-4E81-B2A4-EC762703A9B6}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Clip",
+      "description" : "Sets the extent of a raster using coordinates or another dataset.",
+      "rftPath" : "Clip_{BB91A3A9-7D08-4E81-B2A4-EC762703A9B6}.rft.xml",
+      "startTime" : "637641138620000000",
+      "endTime" : "637641138640000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    }
+  ]
+}
