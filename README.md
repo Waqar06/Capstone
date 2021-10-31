@@ -4,7 +4,7 @@
 
 ### F-Factor New Formulation 
 
-  The aim was to create a new formulation for calculating F-Factor.  Based on the ignition fire dataset, we created a new formulation using convex optimization to calculate the control factors weights and penalties under a given threshold. 
+  The aim was to create a new formulation for calculating F-Factor.  Based on the ignition fire dataset, we created a new formulation using convex optimization to calculate the control factors weights and penalties under a given threshold. A simulation of 7000 years shows the penalty is range within the given threshold. 
 
   #### How to run code
   1. Download the required data from Dataset/Dataset.csv
